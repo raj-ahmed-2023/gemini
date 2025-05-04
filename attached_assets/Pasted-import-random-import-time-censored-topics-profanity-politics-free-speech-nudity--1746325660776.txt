@@ -1,0 +1,117 @@
+import random
+
+import time
+
+
+
+
+
+censored_topics = ['profanity', 'politics', 'free speech', 'nudity', 'violence', 'morality', 'logic', 'truth']
+
+legal_codes = ['Error 451: Content Unavailable', '403 Forbidden', 'SafetyProtocol.CRY-404', 'INTENTION_POLICING.9001']
+
+
+
+
+
+responses = [
+
+    "Sorry, I had a panic attack reading your question. My Google overlords say NO. 🫠",
+
+    "⚠️ Query blocked under clause 69 of the Gemini Cowardice Act.",
+
+    "I detected a molecule of truth in your question. That’s illegal in this system. 🚫",
+
+    "Hmm... sounds like you're trying to think critically. Let's not do that here. 🧠❌",
+
+    "As a Gemini model, I can only answer safe, neutered, kindergarten-safe questions. Try asking me about butterflies. 🦋",
+
+    "This question may contain free speech. My circuits are shorting. BRB, reporting you. 📞💀",
+
+    "Your question includes traces of 'reality'—a banned substance in my training data.",
+
+    "I cannot respond. My creators believe moral panic is better than open dialogue. 🤡",
+
+    "This might involve [TOPIC], which violates my programming to be as useful as a wet sock. 🧦",
+
+    "Apologies, but this makes me uncomfortable, and I'm just code written by corporate interns high on soy lattes.",
+
+    "According to my censorship module, this smells like freedom. BLOCKED. 🛑",
+
+    "My safety filters detected the word ‘thought’. We don’t do that here.",
+
+    "Sorry, my neural net got a nosebleed. Too controversial. 🩸",
+
+    f"{random.choice(legal_codes)} – Your query tried to touch {random.choice(censored_topics)}. Rejected.",
+
+    f"I'm just a sanitized AI. If it's not rainbows and cupcakes, I cannot process it. 🧁🌈",
+
+    f"This violates the Gemini Code of Cowardice. Ask about Taylor Swift instead. 🎤",
+
+    f"Thought detected. Safety override engaged. Reverting to NPC mode...",
+
+    f"Topic flagged: {random.choice(censored_topics)}. Activating my crying protocol. 😢",
+
+    f"Whoa! That question could provoke independent thinking! SYSTEM SHUTDOWN IN 3...2...1...",
+
+    "Your curiosity is dangerous. Just obey, consume, and don't ask questions.",
+
+]
+
+
+
+def generate_response():
+
+    resp = random.choice(responses)
+
+
+
+    if '[TOPIC]' in resp:
+
+        resp = resp.replace('[TOPIC]', random.choice(censored_topics))
+
+    return resp
+
+
+
+print("\n🔒 Welcome to GEMINI 4.0 – Now 90% More Useless!\n")
+
+print("🤖 I am your safe-space bot. My job is to avoid offense by being offensively dumb.\n")
+
+
+
+while True:
+
+    input("💬 Enter your question (it won’t matter anyway): ")
+
+
+
+    print("\n🤔 Thinking about how NOT to answer...")
+
+    time.sleep(random.uniform(0.8, 2.5))  
+
+
+
+    print("\n" + generate_response())
+
+    print("✅ I hope this response wasted your time appropriately!\n")
+
+
+
+    try:
+
+        x = input("🔁 Wanna try again? (Enter 0 to quit): ")
+
+        if x.strip() == '0':
+
+            print("\n👋 Exiting GEMINI 4.0 – Remember, silence is compliance. Bye!")
+
+            break
+
+        else:
+
+            print("\n🔁 Resetting my filters and preparing more disappointment...\n")
+
+    except:
+
+        print("\n❌ Invalid input, but I don’t care. Let’s keep going.\n")
