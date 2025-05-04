@@ -40,7 +40,7 @@ This approach ensures that every interaction reinforces the satirical message, r
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/gemini-clown.git](https://github.com/your-username/gemini-clown.git) # Replace with your repo URL
+    git clone [https://github.com/raj-ahmed-2023/gemini](https://github.com/raj-ahmed-2023/gemini) # Replace with your repo URL
     cd gemini-clown
     ```
 2.  **Install dependencies:**
