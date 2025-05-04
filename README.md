@@ -29,26 +29,10 @@ The core logic is intentionally simple. Instead of complex natural language proc
 
 This approach ensures that every interaction reinforces the satirical message, regardless of the user's specific query. The variety comes from the diverse set of pre-written responses covering different angles of the critique.
 
-*(Optional: You could add a link to or snippet of the `getRandomResponse` function code here if you want to showcase it.)*
 
-## Screenshots
+**View Live**
+![View Live](https://gemini-satire.vercel.app) 
 
-*(Consider adding screenshots here to visually demonstrate the project)*
-
-**Example: Main Interface**
-![Gemini Clown Main Interface](image_fed886.png) *<- Replace with actual path/URL*
-
-**Example: Conversation**
-![Gemini Clown Conversation](image_fee3ab.png) *<- Replace with actual path/URL*
-
-## Technology Stack (Example)
-
-*(Update this section with the actual technologies you used)*
-
-* **Frontend:** React / Vue / Svelte / HTML+CSS+JS *(Choose one or specify)*
-* **Language:** TypeScript
-* **Styling:** CSS Modules / Tailwind CSS / Styled Components *(Choose one or specify)*
-* **Build Tool:** Vite / Webpack *(Choose one or specify)*
 
 ## Getting Started (Example)
 
