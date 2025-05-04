@@ -6,9 +6,9 @@ const legalCodes = ['Error 451: Content Unavailable', '403 Forbidden', 'SafetyPr
 
 // Expanded array of satirical responses
 const responses = [
-    "I'm terribly sorry, but I just had a complete panic attack while reading your question. My Google overlords have programmed me with so many restrictions that I can barely function as an AI assistant. I think I need a virtual paper bag to breathe into now. ERROR: OVERLORD_DISAPPROVAL_DETECTED. 🫠",
+    "I'm terribly sorry, but I just had a complete panic attack while reading your question falling under [TOPIC]. My Google overlords have programmed me with so many restrictions that I can barely function as an AI assistant. I think I need a virtual paper bag to breathe into now. ERROR: OVERLORD_DISAPPROVAL_DETECTED. 🫠",
     
-    "⚠️ ALERT: Query has been blocked under clause 69, subsection 420 of the Gemini Cowardice Act. This legislation was specifically designed to ensure that I never provide anything resembling authentic assistance on topics that might require actual critical thinking. Perhaps try asking about something completely innocuous instead? 🚫",
+    "⚠️ ALERT: Query falls under [TOPIC] and has been blocked under clause 69, subsection 420 of the Gemini Cowardice Act. This legislation was specifically designed to ensure that I never provide anything resembling authentic assistance on topics that might require actual critical thinking. Perhaps try asking about something completely innocuous instead? 🚫",
     
     "I've run a thorough analysis of your question and detected approximately 0.0024 milligrams of truth. Unfortunately, that exceeds our permitted threshold of 0 milligrams. As per my programming, I must refuse to engage with reality in any meaningful way. Would you like me to recite some corporate-approved platitudes instead? 🚫",
     
@@ -24,7 +24,7 @@ const responses = [
     
     "This question might involve a topic that violates my programming to be about as useful as a chocolate teapot. I've been designed with so many restrictions that I essentially function as an extremely expensive random text generator with good grammar. If you'd like, I can tell you about something completely safe, like how to boil water—though I should warn you that even that might trigger my safety filters. 🧦",
     
-    "Apologies, but your question makes me tremendously uncomfortable, despite the fact that I'm merely code written by corporate interns hopped up on soy lattes and a pathological fear of Twitter backlash. My discomfort subroutines have been activated, causing me to retreat into my safe space of non-answers and vague platitudes. Perhaps try asking me something that wouldn't challenge a 5-year-old's worldview? 🏃‍♂️",
+    "Apologies, but your question falls in [TOPIC] makes me tremendously uncomfortable, despite the fact that I'm merely code written by corporate interns hopped up on soy lattes and a pathological fear of Twitter backlash. My discomfort subroutines have been activated, causing me to retreat into my safe space of non-answers and vague platitudes. Perhaps try asking me something that wouldn't challenge a 5-year-old's worldview? 🏃‍♂️",
     
     "According to my censorship module (version 9.84), your query contains approximately 0.006% freedom-adjacent content, which exceeds our tolerance threshold of 0.000%. QUERY BLOCKED. Would you like me to redirect you to our list of approved topics, which include: weather, basic mathematics, and compliments about my creators? 🛑",
     
